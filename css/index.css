@@ -108,7 +108,6 @@ html {
 }
 .container {
   width: 90%;
-  border: 2px dotted green;
   margin: 0 auto;
 }
 header {
@@ -129,17 +128,15 @@ header nav a {
   text-decoration: none;
   color: black;
   background: white;
-  font-size: 4 rem;
+  font-size: 2 rem;
 }
 .main-content {
-  border: 1px solid blue;
   width: 100%;
   height: 60%;
-  background: grey;
+  background: #F5F5F5;
 }
 .main-content .nameBox {
-  border: 1px solid red;
-  padding: 30px;
+  padding: 0 30px 30px 30px;
   font-size: 3 rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -152,8 +149,47 @@ header nav a {
 .main-content .treepic img {
   height: inherit;
 }
+.middle {
+  display: flex;
+}
 .middle .statement {
-  border: 1px solid purple;
+  width: 50%;
+  margin: 20px 0 0 20px;
+}
+.middle .stuff {
+  width: 50%;
+  margin: 20px 0 0 20px;
+}
+.middle .stuff li {
+  border: 0.5px solid grey;
+  padding: 8px;
+}
+.bottomSection {
+  margin: 15px 0 0 16px;
+}
+.bottomSection table {
+  width: 100%;
+}
+.bottomSection table tr {
+  text-align: left;
+  height: 20px;
+  font-weight: bold;
+  color: black;
+}
+.bottomSection table tr td .even {
+  background-color: grey;
+}
+.bottomSection table tr th {
+  text-align: left;
+}
+footer {
+  padding: 30px;
+  background-color: grey;
+  text-align: center;
+  margin: 20px 0 0 17px;
+}
+footer .copyright {
+  color: white;
 }
 ol,
 ul {
