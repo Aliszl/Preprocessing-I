@@ -108,12 +108,20 @@ nav,
 section {
 	display: block;
 }
-
+// variables:
 @background-color:#F5F5F5;
 @text-color:#4d004d;
 
 @link-text-color: black;
 @link-background-color:white;
+
+// mixins:
+
+.font-classA{
+	color:white;
+	font-size: 4 rem;
+	text-align:center;
+}
 
 html {
 	font-size: 62.5%;
@@ -237,7 +245,8 @@ footer{
 	
 
 	.copyright{
-		color:white;
+		.font-classA();
+		
 	}
 }
 
