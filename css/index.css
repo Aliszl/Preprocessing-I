@@ -1,1 +1,228 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+.font-classA {
+  color: white;
+  font-size: 4 rem;
+  text-align: center;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  justify-content: right;
+}
+header nav {
+  margin: 20px 0 10px 100px;
+  display: flex;
+  width: 30%;
+  height: auto;
+  justify-content: space-between;
+  text-emphasis: bold;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  background: white;
+  font-size: 2 rem;
+}
+.main-content {
+  width: 100%;
+  height: 60%;
+  background: #F5F5F5;
+}
+.main-content .nameBox {
+  padding: 0 30px 30px 30px;
+  font-size: 3 rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-content .treepic {
+  margin: 30px;
+  height: inherit;
+  width: auto;
+  max-width: 20%;
+}
+.main-content .treepic img {
+  height: inherit;
+}
+.middle {
+  display: flex;
+}
+.middle .statement {
+  width: 50%;
+  margin: 20px 0 0 20px;
+}
+.middle .stuff {
+  width: 50%;
+  margin: 20px 0 0 20px;
+}
+.middle .stuff li {
+  border: 0.5px solid grey;
+  padding: 8px;
+}
+.bottomSection {
+  margin: 15px 0 0 16px;
+}
+.bottomSection table {
+  width: 100%;
+}
+.bottomSection table tr {
+  text-align: left;
+  height: 20px;
+  font-weight: bold;
+  color: black;
+}
+.bottomSection table tr td .even {
+  background-color: grey;
+}
+.bottomSection table tr th {
+  text-align: left;
+}
+footer {
+  padding: 30px;
+  background-color: grey;
+  text-align: center;
+  margin: 20px 0 0 17px;
+}
+footer .copyright {
+  color: white;
+  font-size: 4 rem;
+  text-align: center;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #4d004d;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
